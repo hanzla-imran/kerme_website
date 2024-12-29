@@ -1,0 +1,249 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    color: #666;
+}
+
+.bit {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .bit {
+        visibility: hidden;
+    }
+}    
+
+.bittok {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .bittok {
+        visibility: hidden;
+    }
+}    
+
+.bittin {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .bittin {
+        visibility: hidden;
+    }
+}  
+
+.bitco {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .bitco {
+        visibility: hidden;
+    }
+}  
+
+.nav-btn {
+    border: none;
+    background:none;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #adc32b;
+    cursor: pointer;
+}
+
+      /*  img-section img-section */
+
+.img-sec-text {
+    font-family: 'Kameron', serif; 
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.fig {
+    background-color: #adc32b;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    width: 75px;
+    height: 76px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+.minto {
+    border-left: 2px dashed;
+    height: 100px;
+    margin-left: 135px;
+    color: #abc32b;
+    margin-top: -18px;
+}
+
+.img-section {
+    width: 546px;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .img-section {
+        display: none;
+    }
+
+}
+
+    /* Fish  Fish  Fish */
+
+.form-select {
+    background-image: url('../img/d-arrow.png');
+    background-size: 8% 51%;
+}
+
+.fish-span {
+    font-size: 37px;
+    font-weight: bold;
+    color: #adc32b;
+}
+
+.fish-select {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #adc32b;
+    font-weight: 700;
+    color: #666;
+    padding: 9px;
+    padding-left: 31px;
+}
+
+.dancing-sc {
+    font-size: 20px; 
+    color: #adc32b; 
+    font-family: 'Dancing Script', cursive;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+     .dancing-sc {
+        display: none;
+     }
+}
+
+.fish-arrow {
+    margin-left: 261px;
+    display: block;
+    margin-top: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+
+    .fish-arrow {
+        display: none;
+    }
+}
+
+    /* footer  footer  footer */
+
+    footer {
+        background: #000;
+        color: #b4b4b4;
+    }
+    
+    li {
+        font-family: 'Kameron', serif;
+        line-height: 34px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .font-5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        padding-top: 91px;
+        line-height: 69px;
+    }
+    
+    .border-whit {
+        border: 2px solid #adc32b;
+        display: flex;
+        border-radius: 50px;
+        margin-top: 63px;
+        margin-bottom: 49px;
+        width: 358px;
+        margin-left: -18px;
+    }
+    
+    .col-ico {
+        color: #adc32b;
+        border: 2px solid #adc32b;
+        padding-left: 17px;
+        padding-top: 10px;
+        padding-bottom: 13px;
+        border-radius: 48px;
+        padding-right: 8px;
+    }
+    
+    .foot-ul {
+        list-style-type: none; 
+        padding: 0px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        /* For tablets: */
+        .foot-ul {
+        padding-left: 29px;
+         }
+    }
+
+    .col-ico:hover {
+        background-color: #adc32b;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .padding-text {
+        padding-top: 34px;
+        padding-bottom: 28px;
+    }
+    
+    .footer-nav ul {
+        list-style-type: none;
+        display: flex;
+        margin-top: 31px;                                                              
+    }
+    
+    .footer-nav li:hover {
+        color: #adc32b;
+        cursor: pointer;
+    }
+    
+    .footer-head {
+        font-size: 27px;
+        font-weight: bold;
+        color: #adc32b;
+    }
+    
+    .footer-para {
+        font-size: 18px;
+        font-family: 'Kameron', serif;
+        line-height: 3px;
+    }
+    
+    .footer-li-hov:hover {
+        color: #adc32b;
+        cursor: pointer;
+    }
+    
